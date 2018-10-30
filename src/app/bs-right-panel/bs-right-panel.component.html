@@ -1,0 +1,10 @@
+<nav class="col-md-2 d-none d-md-block bg-light sidebar sidebar-right">
+  <div class="sidebar-sticky">
+      <div class="progress-wrapper">
+          <div class="current">{{current}}/{{max}}</div>
+              <round-progress [current]="(current)" [max]="(max)" [color]="'#45ccce'" [background]="'#eaeaea'" [radius]="80"
+              [stroke]="10" [semicircle]="true" [rounded]="true" [clockwise]="true" [responsive]="true" [duration]="800"
+              [animation]="'easeInOutQuart'" [animationDelay]="0"></round-progress>
+        </div>
+  </div>
+</nav>
